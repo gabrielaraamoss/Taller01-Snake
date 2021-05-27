@@ -16,7 +16,7 @@ import javax.swing.JPanel;
  * a GameFactory.
  */
 public class GUIView extends JPanel {
-	/** The "Start Game" button */
+	/** The "Empezar" button */
 	private final JButton startGameButton;
 
 	/** The chooser (also called drop-down menu) with names of different games */
@@ -50,7 +50,7 @@ public class GUIView extends JPanel {
 		this.gameFactory = factory;
 
 		// Set the background on the GameView
-		this.gameView.setBackground(Color.white);
+		this.gameView.setBackground(Color.grey);
 
 		// Set the layout on myself
 		setLayout(new BorderLayout());
